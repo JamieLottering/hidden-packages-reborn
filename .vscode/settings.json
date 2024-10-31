@@ -1,0 +1,16 @@
+{
+    "Lua.diagnostics.globals": [
+        "registerForEvent",
+        "GetMod",
+        "Game",
+        "Observe",
+        "json",
+        "Vector4",
+        "EulerAngles",
+        "WorldFunctionalTests",
+        "TweakDBID",
+        "NewObject",
+        "gamedataMappinVariant",
+        "dir"
+    ]
+}
