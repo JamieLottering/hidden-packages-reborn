@@ -11,7 +11,7 @@ local LEX = require("Modules/LuaEX.lua")
 
 local MAPS_FOLDER = "Maps/"
 local MAP_DEFAULT = MAPS_FOLDER .. "packages2.map"
-local SONAR_DEFAULT_SOUND = "quickhack_ping"
+local SONAR_DEFAULT_SOUND = "ui_gui_cyberware_armor_guage_up_lp_01"
 
 local SETTINGS_FILE = "SETTINGS.v3.0.json"
 local MOD_SETTINGS = {
@@ -294,7 +294,7 @@ local function collectHP(packageIndex)
     Game.GetAudioSystem():Play('ui_jingle_quest_success')
     HUDMessage("ALL HIDDEN PACKAGES COLLECTED!")
   else
-    Game.GetAudioSystem():Play('radio_jingle_stanley_enter')
+    Game.GetAudioSystem():Play('ui_loot_rarity_legendary')
     local msg = "Hidden Package " .. tostring(collected) .. " of " .. tostring(LOADED_MAP.amount)
     HUDMessage(msg)
   end
