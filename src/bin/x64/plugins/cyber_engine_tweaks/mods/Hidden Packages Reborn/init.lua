@@ -294,7 +294,7 @@ local function collectHP(packageIndex)
     Game.GetAudioSystem():Play('ui_jingle_quest_success')
     HUDMessage("ALL HIDDEN PACKAGES COLLECTED!")
   else
-    Game.GetAudioSystem():Play('ui_loot_rarity_legendary')
+    Game.GetAudioSystem():Play('radio_jingle_stanley_enter')
     local msg = "Hidden Package " .. tostring(collected) .. " of " .. tostring(LOADED_MAP.amount)
     HUDMessage(msg)
   end
