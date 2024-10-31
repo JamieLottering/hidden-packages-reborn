@@ -11,7 +11,7 @@ local LEX = require("Modules/LuaEX.lua")
 
 local MAPS_FOLDER = "Maps/" -- should end with a /
 local MAP_DEFAULT = "Maps/packages2.map" -- full path to default map
-local SONAR_DEFAULT_SOUND = "ui_scanning_Stop"
+local SONAR_DEFAULT_SOUND = "dev_sweeper_idle_total"
 
 local SETTINGS_FILE = "SETTINGS.v3.0.json"
 local MOD_SETTINGS = { -- saved in SETTINGS_FILE (separate from game save)
