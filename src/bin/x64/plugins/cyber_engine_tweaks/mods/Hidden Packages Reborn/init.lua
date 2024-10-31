@@ -10,7 +10,7 @@ local GameUI = require("Modules/GameUI.lua")
 local LEX = require("Modules/LuaEX.lua")
 
 local MAPS_FOLDER = "Maps/" -- should end with a /
-local MAP_DEFAULT = "Maps/packages2.map" -- full path to default map
+local MAP_DEFAULT = "Maps/legacy.map" -- full path to default map
 local SONAR_DEFAULT_SOUND = "ui_elevator_select"
 
 local SONAR_SOUNDS = {

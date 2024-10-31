@@ -1,7 +1,5 @@
-IDENTIFIER:packages2
-DISPLAY_NAME:Hidden Packages Reborn
-
-// Originals
+IDENTIFIER:legacy
+DISPLAY_NAME:Hidden Packages Legacy
 
 -1095.84 1162.39 1.24 1 
 -1451.70 1128.32 23.64 1
@@ -212,14 +210,3 @@ DISPLAY_NAME:Hidden Packages Reborn
 -468.831 2453.473 52.785 1 // Watson/Northside RED X
 -1425.846 -73.719 30.333 1 // City Center/Corpo Plaza (cool neon fish area)
 -1494.586 -1765.076 79.315 1 // Pacifica/Coastview (1.5 fence replacement)
-
-// Hidden Packages Reborn Additions
-
-// Dogtown
-
-
-// Airport
--3286.308 404.098 31.537 1 // on the right side of the road after you cross the bridge
--3457.375 381.781 41.465 1 // on top of the grassy area in front
--3590.989 374.756 33.643 1 // under the escalator on the left
--3444.657 275.968 31.549 1 // behind a billboard, on the roundabout
