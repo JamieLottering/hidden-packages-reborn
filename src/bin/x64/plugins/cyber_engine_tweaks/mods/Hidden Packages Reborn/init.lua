@@ -414,7 +414,7 @@ end
 local function sonar()
   local NP = findNearestPackageWithinRange(MOD_SETTINGS.SonarRange)
 
-  if not NP or not GameUI.IsDefault() then
+  if not NP then
     return
   end
 
@@ -424,7 +424,10 @@ local function sonar()
     return
   end
 
-  Game.GetAudioSystem():Play(MOD_SETTINGS.SonarSound)
+  if GameUI.IsDefault() then
+    Game.GetAudioSystem():Play(MOD_SETTINGS.SonarSound)
+  end
+
   SONAR_LAST = os.clock()
 end
 
