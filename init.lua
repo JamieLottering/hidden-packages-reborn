@@ -311,12 +311,14 @@ local function collectHP(packageIndex)
 
   local sc_reward = MOD_SETTINGS.StreetcredPerPackage * multiplier
   if sc_reward > 0 then
-    Game.AddExp("StreetCred", sc_reward)
+    local playerDevSystem = PlayerDevelopmentSystem.GetInstance(Game.GetPlayer()):GetDevelopmentData(Game.GetPlayer())
+    playerDevSystem:AddExperience(sc_reward, gamedataProficiencyType.StreetCred, telemetryLevelGainReason.Gameplay)
   end
 
   local xp_reward = MOD_SETTINGS.ExpPerPackage * multiplier
   if xp_reward > 0 then
-    Game.AddExp("Level", xp_reward)
+    local playerDevSystem = PlayerDevelopmentSystem.GetInstance(Game.GetPlayer()):GetDevelopmentData(Game.GetPlayer())
+    playerDevSystem:AddExperience(xp_reward, gamedataProficiencyType.Level, telemetryLevelGainReason.Gameplay)
   end
 end
 
