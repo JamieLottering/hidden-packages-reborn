@@ -11,7 +11,7 @@ local LEX = require("Modules/LuaEX.lua")
 
 local MAPS_FOLDER = "Maps/"
 local MAP_DEFAULT = MAPS_FOLDER .. "packages2.map"
-local SONAR_DEFAULT_SOUND = "dev_sweeper_idle_total"
+local SONAR_DEFAULT_SOUND = "quickhack_ping"
 
 local SETTINGS_FILE = "SETTINGS.v3.0.json"
 local MOD_SETTINGS = {
